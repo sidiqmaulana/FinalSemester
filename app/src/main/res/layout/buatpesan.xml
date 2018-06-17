@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/boxkontak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp" >
+
+        <EditText
+            android:id="@+id/nomorHp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="11.10"
+            android:ems="10"
+            android:inputType="number" />
+
+        <ImageButton
+            android:id="@+id/pick"
+            style="@drawable/newphonebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.14"
+            android:background="@drawable/newphonebook"
+            android:contentDescription="@string/datakontak"
+            android:onClick="doLaunchContactPicker" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/boxsms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/boxkontak"
+        android:layout_marginTop="@dimen/duapuluh"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/smsBox"
+            android:layout_width="319dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/lima"
+            android:layout_marginTop="@dimen/sepuluh"
+            android:ems="10"
+            android:hint="@string/pesanhint"
+            android:inputType="textMultiLine">
+
+            <requestFocus />
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/newsend"
+            android:contentDescription="@string/buatpesan" />
+
+    </LinearLayout>
+
+</RelativeLayout>

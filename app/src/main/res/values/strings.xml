@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Aplikasi SMS</string>
+    <string name="belumdipilih">Contact Not Selected</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="buatpesan">New Messages</string>
+    <string name="pesanmasuk">Inbox</string>
+    <string name="pesankeluar">Outbox</string>
+    <string name="hapuspesan_dialog">Messages will be deleted?</string>
+    <string name="pesanhint">Text Message</string>
+    <string name="datakontak">Contact</string>
+    <string name="pesan">Message</string>
+    <string name="teruskan">Forward</string>
+    <string name="hapuspesan">Delete</string>
+    <string name="confirmation">Konfirmasi</string>
+
+</resources>
